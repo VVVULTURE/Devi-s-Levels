@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>DM Mind Bending</title>
+  <meta name="description" content="Slowly lose yourself playing these mind bending levels.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="/images/68FADFA66D195DFE.jpg">
+  <meta property="og:title" content="DM Mind Bending">
+  <meta property="og:description" content="Slowly lose yourself playing these mind bending levels.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="fancade:guid" content="68FADFA66D195DFE">
+  <link rel="stylesheet" href="/webapp/fancade_stripped.css">
+  <link rel="icon" href="/webapp/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+  <div id="modal_parent">
+    <div id="modal_content">
+      <span id="modal_close_button">&times;</span>
+      <div id="store_link_modal_content" class="modal_inner"></div>
+      <div id="share_file_modal_content" class="modal_inner"></div>
+    </div>
+  </div>
+  <div id="canvas_border" class="emscripten_border">
+    <div id="play_content" class="middle center">
+      <div class="edge">
+        <div class="box">
+          <div class="black">
+            <img src="/images/68FADFA66D195DFE.jpg" class="cover">
+            <p class="title">DM Mind Bending</p>
+            <p class="author">DeviDrawz</p>
+          </div>
+        </div>
+      </div>
+      <div id="progress_or_play">
+        <progress id="progress" class="loading" value="0" max="100"></progress>
+      </div>
+      <p class="description">Slowly lose yourself playing these mind bending levels.</p>
+    </div>
+    <canvas class="emscripten" id="canvas" tabindex="-1"></canvas>
+    <div id="gradient"></div>
+    <div id="webview_content"></div>
+  </div>
+  <div id="bottom_content">
+    <div class="center">
+      <br>
+      <p id="bottom_text">Play thousands more games in the Fancade app!</p>
+      <a href="https://apps.apple.com/us/app/fancade/id1280404080" target="_blank">
+        <img src="/images/appstore.png" alt="App Store" class="appstore075">
+      </a>&nbsp;
+      <a href="https://play.google.com/store/apps/details?id=com.martinmagni.fancade" target="_blank">
+        <img src="/images/playstore.png" alt="Play Store" class="playstore075">
+      </a>
+    </div>
+  </div>
+
+  <!-- Firebase SDKs (still loaded from Google CDN — these are free to use) -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-storage-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-remote-config-compat.js"></script>
+
+  <!-- Game scripts (local) -->
+  <script type="text/javascript" src="/webapp/source_min_stripped.js"></script>
+  <script type="text/javascript" src="/webapp/index_stripped.js"></script>
+</body>
+</html>
